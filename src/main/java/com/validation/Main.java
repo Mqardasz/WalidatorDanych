@@ -10,7 +10,6 @@ public class Main {
 			student.setImie("michal");
 			student.setNazwisko("kardasz");
 			student.setNrIndeksu("12235511");
-			//TODO przetestuj kolejne adnotacje ustawiając błędne wartości
 			Validator.validate(student);
 		} catch (ValidationException e) {
 			System.out.println(e.getMessage());
